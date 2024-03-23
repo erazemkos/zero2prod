@@ -11,3 +11,4 @@ path = "src/lib.rs"
 actix-web = "4.5.1"
 tokio = { version = "1.36.0", features = ["rt", "rt-multi-thread", "macros"] }
 reqwest = "0.12.0"
+serde = { version = "1.0.197", features = ["derive"] }
